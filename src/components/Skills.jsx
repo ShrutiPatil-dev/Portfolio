@@ -27,11 +27,14 @@ function Skills() {
   return (
     <div className='mx-8 lg:mx-12 ' id="skills">
      <div>
-      <h2
-       className="text-center text-4xl lg:text-5xl font-normal py-10">Tech Stack</h2>
+      <motion.h2 initial={{x:100,opacity:0}}
+       whileInView={{x:0,opacity:1}} 
+       transition={{ duration: 0.5, delay:0}}
+
+       className="text-center text-4xl lg:text-5xl font-normal py-10">Tech Stack</motion.h2>
       <motion.p initial={{x:100,opacity:0}}
        whileInView={{x:0,opacity:1}} 
-       transition={{ duration: 0.5}}
+       transition={{ duration: 0.5,delay:0.3}}
        className='text-center'>I am passionate about using cutting-edge technologies. These are the tools I am most familiar with and build things every day.</motion.p>
       <motion.div
         initial={{ x: -100, opacity: 0 }}

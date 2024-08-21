@@ -8,6 +8,7 @@ import Resume from '../assets/Shruti_Patil.pdf'
 import { Link } from 'react-router-dom';
 
 
+
 function About() {
 
 

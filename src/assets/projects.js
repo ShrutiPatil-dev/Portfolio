@@ -1,1 +1,0 @@
-import P1 from './proj1.png'
