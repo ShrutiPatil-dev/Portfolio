@@ -35,7 +35,7 @@ function About() {
       });
   return (
     <div>
-   <div className="flex flex-wrap mx-8 lg:mx-12">
+   <div className="flex flex-wrap mx-8 lg:mx-12 z-10">
         <div className="w-full ">
         <div className="flex flex-col items-center">
              <motion.h2 variants={container(0)}
@@ -116,7 +116,7 @@ function About() {
         </div>
 
        </div>
-       <div className="w-full lg:w-1/2 mt-12">
+       <div className="w-full lg:w-1/2 mt-12 z-10">
           <div className="flex justify-center items-center">
             <div className=" bg-white  border-teal-700  dark:border-blue-950 border-[8px] mt-5 mb-8 rounded-full overflow-hidden">
               <img
