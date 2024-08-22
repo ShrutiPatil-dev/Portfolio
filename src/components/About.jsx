@@ -116,17 +116,15 @@ function About() {
         </div>
 
        </div>
-       <div className="w-full lg:w-1/2 mt-16">
+       <div className="w-full lg:w-1/2 mt-12">
           <div className="flex justify-center items-center">
-            <motion.div initial={{ x: 100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0 }}className=" bg-white  border-teal-700  dark:border-blue-950 border-[8px] mt-5 mb-8 rounded-full overflow-hidden">
+            <div className=" bg-white  border-teal-700  dark:border-blue-950 border-[8px] mt-5 mb-8 rounded-full overflow-hidden">
               <img
                 src={Profile}
                 alt="Profile"
                 className="lg:w-[22rem] w-56 rounded-full "
               />
-            </motion.div>
+            </div>
           </div>
         </div>
      </div>
