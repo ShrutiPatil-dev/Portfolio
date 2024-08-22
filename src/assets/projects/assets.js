@@ -1,7 +1,7 @@
-import proj1 from './proj1.png'
-import proj2 from './proj2.png'
-import proj3 from './proj3.png'
-import proj4 from './proj4.png'
+import proj1 from './proj1.PNG'
+import proj2 from './proj2.PNG'
+import proj3 from './proj3.PNG'
+import proj4 from './proj4.PNG'
 
 export const proj = [
     {
@@ -37,3 +37,6 @@ export const proj = [
 
   
 ]
+
+
+console.log(proj)

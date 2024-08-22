@@ -15,7 +15,7 @@ function Contact() {
        <motion.p initial={{x:100,opacity:0}}
        whileInView={{x:0,opacity:1}} 
        transition={{ duration: 0.5,delay:0.5}}
-       className=' text-base my-5 text-center'>Feel free to drop me a message if you have some interesting offer</motion.p>
+       className=' text-base font-light dark:font-normal my-5 text-center'>Feel free to drop me a message if you have some interesting offer</motion.p>
 
       <IoIosMail size={40} className="cursor-pointer  mx-4 " />
       <motion.a
