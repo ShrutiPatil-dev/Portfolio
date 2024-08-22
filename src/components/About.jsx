@@ -99,7 +99,7 @@ function About() {
         </div>
         </div>
     </div>
-     <div className="flex flex-wrap items-center mx-8 lg:mx-12 mt-28 mb-10 lg:flex-row flex-col-reverse">
+     <div className="flex flex-wrap items-center mx-8 lg:mx-12 mt-28 mb-12 lg:flex-row flex-col-reverse">
        <div className="w-full lg:w-1/2">
        <div className="flex flex-col items-center">
                <motion.h1 variants={contain(0)}
@@ -116,7 +116,7 @@ function About() {
         </div>
 
        </div>
-       <div className="w-full lg:w-1/2 mt-8">
+       <div className="w-full lg:w-1/2 mt-10">
           <div className="flex justify-center items-center">
             <motion.div initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
