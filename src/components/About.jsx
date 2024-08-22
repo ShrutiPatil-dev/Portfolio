@@ -116,7 +116,7 @@ function About() {
         </div>
 
        </div>
-       <div className="w-full lg:w-1/2 mt-10">
+       <div className="w-full lg:w-1/2 mt-16">
           <div className="flex justify-center items-center">
             <motion.div initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
