@@ -1,5 +1,5 @@
 import proj1 from './proj1.PNG'
-import proj2 from './proj2.PNG'
+import proj2 from './proj5.PNG'
 import proj3 from './proj3.PNG'
 import proj4 from './proj4.PNG'
 
@@ -15,10 +15,10 @@ export const proj = [
     },
 	{
         proj_image: proj2,
-		proj_url:"https://github.com/ShrutiPatil-dev/NewsApp",
-		proj_title: "News App",
-		proj_description:"Aggregates news from various sources, allowing you to customize your feed based on interests.",
-		proj_tech: ["ReactJS", "NewsAPI","TailwindCSS"],
+		proj_url:"https://github.com/ShrutiPatil-dev/shopify",
+		proj_title: "E-commerce",
+		proj_description:"A React JS e-commerce website utilizing useContext for state management, enabling functionalities like search, adding/removing items from the cart, and filtering products based on categories",
+		proj_tech: ["ReactJS","TailwindCSS"],
     },
 	  {
         proj_image: proj3,
