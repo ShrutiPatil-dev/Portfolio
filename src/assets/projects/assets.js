@@ -6,7 +6,7 @@ import proj4 from './proj4.PNG'
 export const proj = [
     {
         proj_image: proj1,
-		proj_url: "shrutipatill.netlify.app",
+		proj_url: "https://shrutipatil.netlify.app/",
 		proj_title: "Portfolio Website",
 		proj_description:"This portfolio website showcases my skills, projects, and professional journey as a web developer. It is designed to be a central hub where potential clients and employers can learn more about me and my work.",
 		proj_tech: ["ReactJS", "TailwindCSS", "Framer Motion"],
