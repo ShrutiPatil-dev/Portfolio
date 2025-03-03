@@ -28,7 +28,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-white px-4 py-2 bg-gray-900 border border-gray-800 rounded-md hover:bg-gray-950 transition duration-300"
                 >
-                  Source Code
+                  Live Demo
                 </a>
               </div>
                
